@@ -1,44 +1,99 @@
+<!DOCTYPE html>
 
-		jobs.html
-	-->
-	<head>
-		<title>JavaJam Coffee House Jobs</title>
-		<link rel="stylesheet" href="javajam.css">
-		<!-- [if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
-		</script>
-		<![endif]-->
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	</head>
-	<body>
-		<div id="wrapper">
-		<header>
-			<h1>JavaJam Coffee House</h1>
-		</header>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="menu.html">Menu</a></li>
-				<li><a href="music.html">Music</a></li>
-				<li><a href="jobs.html">Jobs</a></li>
-			</ul>
-		</nav>
-		<main>
-			<p>Want to work at JavaJam? Fill out the form below to start your application. Required fields are marked with an asterisk (*).</p>
-			<form method="post" action="http://webdevbasics.net/scripts/javajam.php">
-			<label for="myName">*Name:</label>
-			<input type="text" name="myName" id="myName">
-			<label for="myEmail">*Email:</label>
-			<input type="email" name="myEmail" id="myEmail">
-			<label for="myExperience">*Experience:</label>
-			<textarea name="myExperience" id="myExperience" rows="2" cols="20"></textarea>
-			<input type="submit">
-			</form>
-		</main>
-		<footer>
-			Copyright &copy; 2020 JavaJam Coffee House<br>		
-		</footer>
-		</div>
-	</body>
-</html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<title>Document</title>
+
+<link rel="`stylesheet`" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="javajam.css">
+
+</head>
+
+<body>
+
+<div class="container-fluid wrapper">
+
+<div class="col-sm-3 sidenav">
+
+<img src="javajamlogo.jpg" class="img-responsive" alt="Java">
+
+<ul class="nav nav-pills nav-stacked" id="link">
+
+<b> <li><a href="home.html">Home</a></li>
+
+<li><a href="menu.html">Menu</a></li>
+
+<li><a href="music.html">Music</a></li>
+
+<li><a href="jobs.html">Jobs</a></li></b>
+
+</ul><br>
+
+</div>
+
+<div class="col-sm-9 head">
+
+<h1><b>Javajam Coffee House</b></h1>
+
+</div>
+
+<div class="col-sm-9 jobs">
+
+<h2><b>Jobs at Javajam<b></h2>
+
+<p id="intro">Want to work at Javajam? Fill out the form below to start your application. Required fields are marked with an asterisk(*).</p>
+
+<form class="form-block">
+
+<div class="form-group name">
+
+<label for="exampleInputName2 ">*Name:</label>
+
+<input type="text" class="form-control" id="exampleInputName2" placeholder="Your Name">
+
+</div>
+
+<div class="form-group email">
+
+<label for="exampleInputName2">*E-mail:</label>
+
+<input type="text" class="form-control" id="exampleInputName2" placeholder="Your Email">
+
+</div></form>
+
+<form class="form-horizontal">
+
+<div class="form-group exp">
+
+<label for="exampleInputName2">*Experience:</label>
+
+<textarea class="form-control" rows="3" placeholder="description"></textarea></div>
+
+</form>
+
+<form>
+
+<button type="submit" class="btn btn-default">Apply Now</button>
+
+</form>
+
+</div>
+
+<footer class="container-fluid footer">
+
+<p>Copyright&#169 2017 JavaJam Coffee House</p>
+
+</footer>
+
+</div>
+
+</body>
