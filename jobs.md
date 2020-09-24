@@ -90,7 +90,7 @@
 
 <footer class="container-fluid footer">
 
-<p>Copyright&#169 2017 JavaJam Coffee House</p>
+<p>Copyright&#169 2020 JavaJam Coffee House</p>
 
 </footer>
 
